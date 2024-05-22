@@ -1,0 +1,11 @@
+version: '3'
+services:
+  jekyll:
+    image: jekyll/jekyll
+    container_name: jekyll
+    working_dir: /app
+    volumes:
+      - ./:/app
+    ports:
+      - "4000:4000"
+    command: "sh -c 'gem install bundler webrick; bundle add webrick; bundle exec jekyll serve --host 0.0.0.0 --trace --incremental'"
