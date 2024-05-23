@@ -55,3 +55,6 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
   - .idea/
+include:
+  - docker-compose.yml
+  - .Dockerfile
