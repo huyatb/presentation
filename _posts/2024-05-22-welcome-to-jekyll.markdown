@@ -22,6 +22,38 @@ print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
 
+```php
+function print_hi($name) {
+  echo "Hi, $name";
+}
+```
+
+
+```javascript
+function print_hi(name) {
+  console.log(`Hi, ${name}`);
+}
+```
+
+{% highlight javascript %}
+function print_hi(name) {
+  console.log(`Hi, ${name}`);
+}
+{% endhighlight %}
+
+
+```bash
+echo "Hi, Tom"
+```
+
+```sql
+SELECT * FROM your_table WHERE column1 = 'your_value1' AND column2 = 'your_value2';
+```
+
+```yaml
+name: "Tom"
+```
+
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
 [jekyll-docs]: https://jekyllrb.com/docs/home
