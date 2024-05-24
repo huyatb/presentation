@@ -59,3 +59,12 @@ docker-compose up
 ```
 
 # Open browser and access to [your blog](http://localhost:4000/present/)
+
+# References:
+- [https://jekyllrb.com/docs/installation/docker/](https://jekyllrb.com/docs/installation/docker/)
+- [https://jekyllrb.com/](https://jekyllrb.com/)
+- [https://pages.github.com/](https://pages.github.com/)
+- [https://www.markdownguide.org/tools/jekyll/](https://www.markdownguide.org/tools/jekyll/)
+- [https://en.wikipedia.org/wiki/History_of_writing](https://en.wikipedia.org/wiki/History_of_writing)
+- [https://talk.jekyllrb.com/t/jekyll-showcase-share-your-sites-built-with-jekyll/44/1](https://talk.jekyllrb.com/t/jekyll-showcase-share-your-sites-built-with-jekyll/44/1)
+- [https://github.com/jekyll/minima/tree/2.5-stable](https://github.com/jekyll/minima/tree/2.5-stable)
